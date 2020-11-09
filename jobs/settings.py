@@ -25,7 +25,7 @@ SECRET_KEY = 't^h*%f@@nc!w7q)0o#&y55f1_l!a0(yhyacf=5(xkih)d(5i3f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://django-sendmail-1000.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
