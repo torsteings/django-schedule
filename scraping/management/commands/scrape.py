@@ -37,3 +37,7 @@ class Command(BaseCommand):
         server.quit()
 
         self.stdout.write( 'job complete' )
+        # Include a return statement at the end of each
+        # logical flow of the handle() function so
+        # Heroku Scheduler knows when it can shut down. 
+        # return
