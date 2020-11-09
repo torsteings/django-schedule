@@ -123,5 +123,5 @@ STATIC_URL = '/static/'
 EMAIL_HOST_USER = 'ctbirdsas@gmail.com'
 EMAIL_HOST_PASSWORD = "1stofApril"
 
-import django_heroku
-django_heroku.settings(locals())
+# import django_heroku
+# django_heroku.settings(locals())
