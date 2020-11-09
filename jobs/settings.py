@@ -118,7 +118,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 
 EMAIL_HOST_USER = 'ctbirdsas@gmail.com'
 EMAIL_HOST_PASSWORD = "1stofApril"
