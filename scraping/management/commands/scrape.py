@@ -31,6 +31,7 @@ class Command(BaseCommand):
 
         # Send the message.
         server = smtplib.SMTP(host, port)
+        server.ehlo()
         server.starttls()
         server.login(username, password)
         server.send_message(msg)
@@ -39,5 +40,5 @@ class Command(BaseCommand):
         self.stdout.write( 'job complete' )
         # Include a return statement at the end of each
         # logical flow of the handle() function so
-        # Heroku Scheduler knows when it can shut down. 
+        # Heroku Scheduler knows when it can shut down.
         # return
