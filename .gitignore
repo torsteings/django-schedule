@@ -131,3 +131,4 @@ dmypy.json
 .DS_Store
 jobs/__pycache__
 scraping/__pycache__
+jobs/settings.py
